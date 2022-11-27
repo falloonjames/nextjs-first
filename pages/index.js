@@ -7,6 +7,7 @@ export default function Home() {
       <Head>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
+        <meta name="description" content="Main landing page of our example app" />
       </Head>
 
       <main>
