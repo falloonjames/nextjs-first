@@ -1,22 +1,22 @@
 import Head from 'next/head'
-import styles from '../../styles/Home.module.css';
+import styles from '../styles/Home.module.css';
 
-export default function Help() {
+export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Learn Integration Testing</title>
-        <link rel="icon" href="/servers.ico" />
-        <meta name="description" content="Read about integration testing." />
+        <title>Create Next App</title>
+        <link rel="icon" href="/favicon.ico" />
+        <meta name="description" content="Main landing page of our example app" />
       </Head>
 
       <main>
         <h1 className={styles.title}>
-          Welcome SSTK engineers
+          Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
 
         <p className={styles.description}>
-          Get started by opening a terminal and type <code id='curl-one'>curl</code>
+          Get started by editing <code>pages/index.js</code>
         </p>
 
         <div className={styles.grid}>
